@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Bieber - My Future Husband 💖💍</title>
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp5954336.jpg'); /* Replace this with a Bieber poster background */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #fff;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            font-size: 5rem;
+            margin-top: 20px;
+            color: #ff69b4;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+            animation: sparkle 2s ease-in-out infinite;
+        }
+
+        .subtitle {
+            font-size: 2.5rem;
+            color: #fdfd96;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+        }
+
+        @keyframes sparkle {
+            0%, 100% { color: #ff69b4; }
+            50% { color: #fdfd96; }
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 40px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .gallery div {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .gallery div img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 15px;
+        }
+
+        .gallery div:hover {
+            background-color: rgba(255, 182, 193, 0.8);
+            transform: scale(1.1);
+            transition: all 0.3s ease;
+        }
+
+        .youtube-video {
+            margin: 40px 0;
+            font-size: 1.5rem;
+            color: #ff69b4;
+        }
+
+        .youtube-video iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 15px;
+            border: 5px solid #ff69b4;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 1.5rem;
+            color: #ff69b4;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .heart {
+            color: #ff69b4;
+            font-size: 4rem;
+            animation: heartbeat 1.2s ease infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.4);
+            }
+        }
+
+        .love-text {
+            margin-top: 30px;
+            font-size: 2.5rem;
+            color: #fdfd96;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+            font-style: italic;
+            line-height: 1.5;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .floating-hearts {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            transform: translateX(-50%);
+        }
+
+        .floating-hearts div {
+            position: absolute;
+            bottom: 0;
+            width: 60px;
+            height: 60px;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Heart_coraz%C3%B3n.svg/1024px-Heart_coraz%C3%B3n.svg.png') no-repeat center;
+            background-size: contain;
+            animation: floatUp 8s infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(0);
+                opacity: 0.6;
+            }
+            100% {
+                transform: translateY(-150vh);
+                opacity: 0;
+            }
+        }
+
+        .floating-hearts div:nth-child(odd) {
+            animation-duration: 5s;
+            left: 30%;
+        }
+
+        .floating-hearts div:nth-child(even) {
+            animation-duration: 7s;
+            left: 70%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Autoplay background music -->
+    <audio autoplay loop>
+        <source src="https://www.example.com/bieber_baby.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <h1>Justin Bieber is My Future Husband <span class="heart">💖💍</span></h1>
+    <p class="subtitle">Nobody else matters, it's just me and Justin, FOREVER! 💕</p>
+
+    <div class="gallery">
+        <div><img src="justin1.jpg" alt="Justin Image 1"></div>
+        <div><img src="justin2.webp" alt="Justin Image 2"></div>
+        <div><img src="justin3.jpg" alt="Justin Image 3"></div>
+        <div><img src="justin4.jpg" alt="Justin Image 4"></div>
+        <div><img src="justin5.jpg" alt="Justin Image 5"></div>
+        <div><img src="justin6.jpg" alt="Justin Image 6"></div>
+    </div>
+
+    <div class="youtube-video">
+        <iframe src="https://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>When Justin serenades me, I feel like the luckiest girl in the world! 💖🎶</p>
+    </div>
+
+    <p class="love-text">"Justin, you're my everything! My heart beats just for you! 💕 #Belieber4Life"</p>
+
+    <footer>
+        <p>Belieber Forever &copy; 2024 | I'll never stop loving you, Justin! 💖💍</p>
+    </footer>
+
+    <div class="floating-hearts">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
